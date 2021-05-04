@@ -1,1 +1,6 @@
 测试111803
+查看分支文件的状态：git status
+提交本地新建的分支到远程：git push --set-upstream origin branch01
+切换分支：git checkout branch(别的分支名)
+删除分支：git branch -d branch01(分支名)
+删除远程的分支：git push origin :branch01 （注：origin后面必须有一个空格）
